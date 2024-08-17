@@ -532,3 +532,4 @@ function printPattern20(n) {
 }
 
 printPattern20(5);
+  
