@@ -1,3 +1,6 @@
+// When a function callled itself until a specified condition is met is known as a recursion 
+
+
 // function f() {
 //   console.log(1);
 //   f();
