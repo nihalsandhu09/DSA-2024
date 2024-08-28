@@ -17,22 +17,22 @@ function f(num, arr) {
 
 // Hashings
 
-function countNumberOccurrences(num, arr) {
-  let hashMap = {};
-  for (let i = 0; i < arr.length; i++) {
-    let currentnum = arr[i];
-    if (hashMap[currentnum]) {
-      hashMap[currentnum] += 1;
-    } else {
-      hashMap[currentnum] = 1;
-    }
-  }
-  return hashMap[num];
-}
-const arr = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
-const num = 1;
-const occurrences = countNumberOccurrences(num, arr);
-console.log(occurrences);
+// function countNumberOccurrences(num, arr) {
+//   let hashMap = {};
+//   for (let i = 0; i < arr.length; i++) {
+//     let currentnum = arr[i];
+//     if (hashMap[currentnum]) {
+//       hashMap[currentnum] += 1;
+//     } else {
+//       hashMap[currentnum] = 1;
+//     }
+//   }
+//   return hashMap[num];
+// }
+// const arr = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+// const num = 1;
+// const occurrences = countNumberOccurrences(num, arr);
+// console.log(occurrences);
 
 // with the separate queries
 
@@ -63,3 +63,24 @@ queries.map((query) => {
     `${query} appears ${getOccurrences(query, hashMap)} times in the array.`
   );
 });
+
+console.log(hashMap);
+// function Hashing(num, arr) {
+//   let hashMap = {};
+
+//   for (let i = 0; i < arr.length; i++) {
+//     let currentNum = arr[i];
+
+//     if (hashMap[currentNum]) {
+//       hashMap[currentNum] += 1;
+//     } else {
+//       hashMap[currentNum] = 1;
+//     }
+//   }
+//   return hashMap[num];
+// }
+
+// const arr1 = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+// const num1 = 4;
+// const occurrences1 = Hashing(num1, arr1);
+// console.log(occurrences1);
