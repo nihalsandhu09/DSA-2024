@@ -532,4 +532,15 @@ function printPattern20(n) {
 }
 
 printPattern20(5);
-  
+
+function printpatetrn(n) {
+  for (let i = 0; i < n; i++) {
+    let str = "";
+
+    for (let j = 0; j < n; j++) {
+      str = str + "*";
+    }
+    console.log(str);
+  }
+}
+printpatetrn(5);

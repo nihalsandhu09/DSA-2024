@@ -12,7 +12,7 @@ function sortArr(arr) {
 
 // console.log("The Largest element in the array is: " + sortArr(arr1));
 // console.log("The Largest element in the array is: " + sortArr(arr2));
-
+// TC  (n * log n  )
 // Optimal solution
 
 function findLargestElement(arr) {
@@ -32,3 +32,6 @@ console.log("The largest element in the array is: " + max);
 const arr2 = [8, 10, 5, 7, 9];
 max = findLargestElement(arr2);
 console.log("The largest element in the array is: " + max);
+
+
+// TC of this is O(n)
